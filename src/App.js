@@ -1,7 +1,8 @@
 import React from 'react';
-import TodoList from './Components/TodoList'
-export default function App() {
-    return (
-        <TodoList />
-    )
+import './App.css';
+import CleanChat from './Components/CleanChat'
+function App() {
+    return <CleanChat />
 }
+
+export default App;
